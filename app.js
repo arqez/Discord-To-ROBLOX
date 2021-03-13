@@ -27,6 +27,7 @@ const fart = async () => {
             clearInterval(loadingTimer);
             process.stdout.write(`\rUnable to retrieve any results for ${res}\n`);
         });
+        
         String.from
         if (apiData) {
             jsn = JSON.parse(apiData.body);
